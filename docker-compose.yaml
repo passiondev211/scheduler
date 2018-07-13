@@ -1,0 +1,16 @@
+version: '3'
+services:
+  scheduler-db:
+    image: mongo
+  scheduler-server:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/scheduler
+      - node_modules:/scheduler/node_modules
+    links:
+      - scheduler-db
+    command: npm run dev
