@@ -1,0 +1,20 @@
+.card {
+  .card-header {
+    position: relative;
+
+    .card-new-item {
+      position: absolute;
+      right: 12px;
+      top: 12px;
+
+      > a {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.action-links {
+  padding: 0;
+  list-style: none;
+}
