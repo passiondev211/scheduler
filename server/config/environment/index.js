@@ -28,14 +28,14 @@ const all = {
   },
 
   sendgrid: {
-    key: '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',
+    key: 'sendGridKey',
   },
 
   adminEmail: 'support@shoppe.com',
 
   amazon_sns: {
-    accessKeyId: 'AKIAJHDXQKMNHNLTAPBA',
-    secretAccessKey: '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',
+    accessKeyId: 'accesKey',
+    secretAccessKey: 'secretAccessKey',
     region: 'us-west-2'
   },
 
@@ -45,7 +45,7 @@ const all = {
       appSecret: '641c74e4e0f9d0e4ca93ef937b3f0710',
       appId: '1711857159104048',
     },
-    userAccessToken: 'EAAYU5ZC9vqWsBABMXCkFYbij7IxyZCK4DCDWAhKRZAicbigKwgKPfZBUHUZBwogSTjVt4HrDVJx6yLd9s8MvF2Fgnmgc04u0wghD7Bbv48faLljKpaQZAjNy78xNn7U1vrg1zqqoquB0Lkgw4UMpZC5DR92qJb4bjRobGXtD5h1hAZDZD',
+    userAccessToken: 'token',
     pageId: '1691083867780869',
   },
 
